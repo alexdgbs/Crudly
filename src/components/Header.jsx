@@ -126,7 +126,7 @@ function Header() {
             ) : (
               <Link 
                 to="/login" 
-                className="px-4 py-2 text-sm font-medium text-white bg-gray-500 rounded-lg hover:bg-gray-600 transition-colors block"
+                className="px-4 py-2 text-xs uppercase font-medium text-white bg-gray-500 rounded-lg hover:bg-gray-600 transition-colors block"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Iniciar sesión
